@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChanceExercise.Tests", "ChanceExercise.Tests\ChanceExercise.Tests.csproj", "{9EF6ED4B-5A47-4297-8B04-0A97DA135251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChanceExercise", "ChanceExercise\ChanceExercise.csproj", "{6E51108E-0EE9-4DE5-8944-51C7A7E5A299}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EF6ED4B-5A47-4297-8B04-0A97DA135251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF6ED4B-5A47-4297-8B04-0A97DA135251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF6ED4B-5A47-4297-8B04-0A97DA135251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF6ED4B-5A47-4297-8B04-0A97DA135251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E51108E-0EE9-4DE5-8944-51C7A7E5A299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E51108E-0EE9-4DE5-8944-51C7A7E5A299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E51108E-0EE9-4DE5-8944-51C7A7E5A299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E51108E-0EE9-4DE5-8944-51C7A7E5A299}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
