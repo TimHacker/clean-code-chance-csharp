@@ -1,10 +1,10 @@
-using System.Diagnostics;
 using System.Globalization;
 
 namespace ChanceExercise;
 
 public class Chance
 {
+    private const double THRESHOLD = 0.00001;
     private readonly double _likelihood;
 
     public Chance(double likelihood)
@@ -14,16 +14,17 @@ public class Chance
     
     public bool Equals(Chance other)
     {
-        return Math.Abs(_likelihood - other._likelihood) < 0.00001;
+        return Math.Abs(_likelihood - other._likelihood) < THRESHOLD;
     }
 
     public override bool Equals(object? o)
     {
-        if (o is Chance other)
+        if (o is not Chance other)
         {
-            return Equals(other);
+            return false;
         }
-        return false;
+
+        return Equals(other);
     }
 
     public override int GetHashCode()
