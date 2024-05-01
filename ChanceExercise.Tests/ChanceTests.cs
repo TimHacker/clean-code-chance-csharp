@@ -11,7 +11,7 @@ public class Tests
     [Test]
     public void TwoUnequalChancesAreNotEqual()
     {
-        Assert.That(new Chance(0.6).Equals(new Chance(0.3)), Is.False);
+        Assert.That(new Chance(0.6), Is.Not.EqualTo(new Chance(0.3)));
     }
     
     [Test]
@@ -29,7 +29,7 @@ public class Tests
     }
     
     [Test]
-    public void Or()
+    public void OrAddsTheLikelihoods()
     {
         Assert.That(new Chance(0.6).Or(new Chance(0.3)), 
             Is.EqualTo(new Chance(0.9)));
