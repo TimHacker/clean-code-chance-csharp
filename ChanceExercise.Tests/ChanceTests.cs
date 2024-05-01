@@ -11,7 +11,7 @@ public class Tests
     [Test]
     public void TwoUnequalChancesAreNotEqual()
     {
-        Assert.That(new Chance(0.6), Is.Not.EqualTo(new Chance(0.3)));
+        Assert.That(new Chance(0.6).Equals(new Chance(0.3)), Is.Not.True);
     }
     
     [Test]
